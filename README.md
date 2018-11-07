@@ -7,7 +7,7 @@ Routing, Inventory and Supply Chain optimisation using heuristics
 - These projects revolved around solving TSP-LIB (see: [TSP-LIB](https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)) EUC-2D (n ≤ 500) instances by using heuristics
 - The MATLAB implementation is provided for
   - The following 7 construction heuristics:
-    - [the Nearest Neighbour (NN) algorithm ](construct_heur/near_neighbour.m)
+    - [the Nearest Neighbour (NN) algorithm ](construct_heuristics/near_neighbour.m)
     - the Nearest Merger (NM) algorithm
     - the Clarke & Wright (C&W) Savings algorithm
     - Insertion Procedures
