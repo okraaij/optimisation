@@ -5,15 +5,18 @@ Routing, Inventory and Supply Chain optimisation using heuristics
 
 - This repository contains several of the (Traveling Salesman Problem) projects I have previously worked on for the MSc Business Analytics at the University of Edinburgh. 
 - Most of these projects revolved around solving TSP-LIB (see: [TSP-LIB](https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)) EUC-2D (n ≤ 500) instances by using heuristics
-- The code is provided in MATLAB for the following 7 construction heuristics:
-  - the Nearest Neighbour (NN) algorithm
-  - the Nearest Merger algorithm
-  - the Clarke & Wright savings algorithm
-  - Insertion procedures
-    - Cheapest Insertion
-    - Farthest Insertion
-    - Nearest Insertion
-    - Arbitrary Insertion
+- The code is provided in MATLAB for 
+  - The following 7 construction heuristics:
+    - the Nearest Neighbour (NN) algorithm
+    - the Nearest Merger algorithm
+    - the Clarke & Wright savings algorithm
+    - Insertion procedures
+      - Cheapest Insertion
+      - Farthest Insertion
+      - Nearest Insertion
+      - Arbitrary Insertion
+    
+ 
 
 ## Explanation of terms
 
