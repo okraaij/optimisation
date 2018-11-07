@@ -3,7 +3,7 @@ Routing, Inventory and Supply Chain optimisation using heuristics
 
 ## Overview
 
-- This repository contains several of the (Traveling Salesman Problem) projects I have previously participating in working on for the MSc Business Analytics at the University of Edinburgh. 
+- This repository contains several of the (Traveling Salesman Problem) projects I have previously participated in working on for the MSc Business Analytics at the University of Edinburgh. 
 - These projects revolved around solving TSP-LIB (see: [TSP-LIB](https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)) EUC-2D (n ≤ 500) instances by using heuristics
 - The MATLAB implementation is provided for
   - The following 7 construction heuristics:
