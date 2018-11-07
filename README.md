@@ -63,7 +63,7 @@ The Random Descent differs to the Steepest Descent, since the neighbours are ran
 The Steepest Descent algorithm explores the entire search space to identify the best improving neighbour. Once implemented, the process is repeated on the newly created seed solution until no improvement can be found. 
 
 #### Difference between 2-opt and 3-opt
-The 2-opt algorithm is described by Blazinskas and Misevicius (2011) as simple and in its naive form, involves repeatedly breaking two edges in a tour and reconnecting them in another cost decreasing way until no positive gain 2-opt move can be found. The time complexity for naive 2-opt is $𝑂(𝑛^2)$. It is outlined by Blazinskas and Misevicius (2011) that when breaking edges in an existing tour, there are (𝑘−1)!∗ 2^((𝑘−1) ) ways to reconnect it, including the initial tour. 
+The 2-opt algorithm is described by Blazinskas and Misevicius (2011) as simple and in its naive form, involves repeatedly breaking two edges in a tour and reconnecting them in another cost decreasing way until no positive gain 2-opt move can be found. The time complexity for naive 2-opt is 𝑂(𝑛^2). It is outlined by Blazinskas and Misevicius (2011) that when breaking edges in an existing tour, there are (𝑘−1)!∗ 2^((𝑘−1) ) ways to reconnect it, including the initial tour. 
 
 The 3-opt algorithm works in a similar way to the 2-opt algorithm but removes and reconnects three edges rather than two. The time complexity for 3-opt is 𝑂(𝑛^3) but can be improved through techniques that are not explored in this report. It is outlined by Blazinskas and Misevicius (2011) that when breaking edges in an existing tour, there are (𝑘−1)!∗ 2^((𝑘−1) ) ways to reconnect it, including the initial tour. 
 
