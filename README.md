@@ -8,7 +8,7 @@ Routing, Inventory and Supply Chain optimisation using heuristics
 - The code is provided in MATLAB for the following 7 construction heuristics:
   - the Nearest Neighbour (NN) algorithm
   - the Nearest Merger algorithm
-  - the Clarke & Wright savings procedure
+  - the Clarke & Wright savings algorithm
   - Insertion procedures
     - Cheapest Insertion
     - Farthest Insertion
@@ -29,7 +29,6 @@ A construction heuristic is a type of heuristic defined by Kahng and Reda (2004)
 - Starts with n sub-tours, each containing one node. Then, it finds the two closest sub-tours, where the distance between any pair of nodes in the selected two sub-tours is minimal. After that, it merges the two selected sub-tours based on minimum insertion cost criterion. This process repeats until each node in the instance has been included in one complete tour.
 #### Clarke & Wright Savings Algorithm
 - A commonly studied greedy heuristic that selects a central node as starting point. The algorithm then computes the savings that can be obtained by linking two nodes rather than visiting them individually. Based upon the highest amount of savings, two nodes are linked together. This process continues until a complete tour has been created.
- 
 #### Insertion Procedures 
 All of the insertion procedures start with a sub-tour and iteratively determine which of the remaining nodes shall be inserted into the sub-tour next (the selection step) and where (between which two nodes) it should be inserted (the insertion step).
 - Farthest Insertion 
