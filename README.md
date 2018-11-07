@@ -16,10 +16,10 @@ Routing, Inventory and Supply Chain optimisation using heuristics
       - Nearest Insertion (NI)
       - Arbitrary Insertion (AI)
    - The following 4 Classical Local Search (CLS) algorithms:
-    - Random Descent (2-opt)
-    - Random Descent (3-opt)
-    - Steepest Descent (2-opt)
-    - Steepest Descent (3-opt)
+      - Random Descent (2-opt)
+      - Random Descent (3-opt)
+      - Steepest Descent (2-opt)
+      - Steepest Descent (3-opt)
 
 ## Explanation of terms
 
@@ -33,7 +33,9 @@ A neighbourhood structure defines the set of solutions than can be reached from 
 In its simplest form, an initial solution - in this case provided by the NN procedure - and a transition mechanism is employed to generate a neighbour of this solution. If this neighbour is an improvement to the current solution or leads to an improvement to the objective function value (the total distance traveled in the TSP instance), the current solution - commonly referred to as the seed solution - is replaced by the neighbour generated. This process is repeated until there is no better neighbour that can be found. 
 
 
-## Explanation of techniques
+## Explanation of algorithms
+
+### Construction Heuristics
 
 #### Nearest Neighbour (NN)
 - Starts with an empty solution, randomly selects a starting point and repeatedly extends the current solution by selecting the nearest node to the last node selected. This process is repeated until each node in the TSP instance has been visited once only, resulting in a complete unique tour being generated. 
@@ -51,3 +53,22 @@ All of the insertion procedures start with a sub-tour and iteratively determine 
     - Selects randomly a node not already in the sub-tour to join the sub-tour and inserts it using the minimum insertion cost criterion.
 - Nearest Insertion
     - Selects the node which has the minimum distance from any node in the current sub-tour and inserts it using the minimum insertion cost criterion.
+    
+### Classical Local Search (CLS) algorithms
+
+#### Random Descent 
+The Random Descent differs to the Steepest Descent, since the neighbours are randomly generated and the current seed solution is replaced by the first neighbour that improves the objective function. This process is repeated until it meets a specified constraint.
+
+#### Steepest Descent
+The Steepest Descent algorithm explores the entire search space to identify the best improving neighbour. Once implemented, the process is repeated on the newly created seed solution until no improvement can be found. 
+
+#### Difference between 2-opt and 3-opt
+The 2-opt algorithm is described by Blazinskas and Misevicius (2011) as simple and in its naive form, involves repeatedly breaking two edges in a tour and reconnecting them in another cost decreasing way until no positive gain 2-opt move can be found. The time complexity for naive 2-opt is 𝑂(𝑛^2). It is outlined by Blazinskas and Misevicius (2011) that when breaking edges in an existing tour, there are (𝑘−1)!∗ 2^((𝑘−1) ) ways to reconnect it, including the initial tour. 
+
+The 3-opt algorithm works in a similar way to the 2-opt algorithm but removes and reconnects three edges rather than two. The time complexity for 3-opt is 𝑂(𝑛^3) but can be improved through techniques that are not explored in this report. It is outlined by Blazinskas and Misevicius (2011) that when breaking edges in an existing tour, there are (𝑘−1)!∗ 2^((𝑘−1) ) ways to reconnect it, including the initial tour. 
+
+
+
+
+    
+
