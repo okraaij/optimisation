@@ -1,7 +1,7 @@
 # Optimisation
 Routing, Inventory and Supply Chain optimisation using heuristics 
 
-An implementation of construction heuristics and Local Search algorithms in MATLAB
+Implementations of various construction heuristics and Local Search algorithms in MATLAB
 
 ## Overview
 
