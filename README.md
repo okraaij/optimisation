@@ -6,7 +6,9 @@ Implementations of various construction heuristics and Local Search algorithms i
 ## Overview
 
 - This repository contains several of the (Traveling Salesman Problem) projects I have previously participated in working on for the MSc Business Analytics at the University of Edinburgh. 
+
 - These projects revolved around solving TSP-LIB (see: [TSP-LIB](https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)) EUC-2D (n ≤ 500) instances by using heuristics
+
 - The MATLAB implementation is provided for
   - The following 7 construction heuristics:
     - [the Nearest Neighbour (NN) algorithm](construct_heuristics/near_neighbour.m)
@@ -17,6 +19,7 @@ Implementations of various construction heuristics and Local Search algorithms i
       - [Farthest Insertion (FI)](construct_heuristics/farth_insertion.m)
       - [Nearest Insertion (NI)](construct_heuristics/near_insertion.m)
       - [Arbitrary Insertion (AI)](construct_heuristics/arbi_insertion.m)
+   
    - The following 4 Classical Local Search (CLS) algorithms:
       - [Random Descent (2-opt)](local_search/rand_desc_2opt.m)
       - [Random Descent (3-opt)](local_search/rand_desc_3opt.m)
