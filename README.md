@@ -13,7 +13,7 @@ Implementations of various construction heuristics and Local Search algorithms i
     - [the Nearest Merger (NM) algorithm](construct_heuristics/near_merger.m)
     - [the Clarke & Wright (C&W) Savings algorithm](construct_heuristics/clarke_wright.m)
     - Insertion Procedures
-      - [Cheapest Insertion (CI)](construct_heuristics/cheap_insrtion.m)
+      - [Cheapest Insertion (CI)](construct_heuristics/cheap_insertion.m)
       - [Farthest Insertion (FI)](construct_heuristics/farth_insertion.m)
       - [Nearest Insertion (NI)](construct_heuristics/near_insertion.m)
       - [Arbitrary Insertion (AI)](construct_heuristics/arbi_insertion.m)
