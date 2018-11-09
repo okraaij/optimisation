@@ -31,10 +31,6 @@ A construction heuristic is a type of heuristic defined by Kahng and Reda (2004)
 
 A Classical Local Search (CLS) algorithm is a type of heuristic that “operates using a single state and its set of neighbours” (Nunes De Castro, 2002). 
 
-A neighbourhood structure defines the set of solutions than can be reached from a given solution in one single step of a local search process. This single step is commonly called a move, which is a basic operation that transforms a given solution into another one. 
-In its simplest form, an initial solution - in this case provided by the NN procedure - and a transition mechanism is employed to generate a neighbour of this solution. If this neighbour is an improvement to the current solution or leads to an improvement to the objective function value (the total distance traveled in the TSP instance), the current solution - commonly referred to as the seed solution - is replaced by the neighbour generated. This process is repeated until there is no better neighbour that can be found. 
-
-
 ## Explanation of algorithms
 
 ### Construction Heuristics
