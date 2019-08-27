@@ -5,7 +5,7 @@ Implementations of various construction heuristics and Local Search algorithms i
 
 ## Overview
 
-- This repository contains several of the (Traveling Salesman Problem) projects I have previously participated in working on for the MSc Business Analytics at the University of Edinburgh. 
+- This repository contains several of the (Traveling Salesman Problem) projects
 
 - These projects revolved around solving TSP-LIB (see: [TSP-LIB](https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)) EUC-2D (n ≤ 500) instances by using heuristics
 
